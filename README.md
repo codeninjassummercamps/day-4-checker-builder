@@ -26,7 +26,7 @@ You might have guessed already, but the provided code is going to help make sure
 
 ## Step 3
 
-Our goal is going to be to use the width and length variables to make a custom sized checker board. To make a square with side lengths of the width and length, we need 2 ``||loops.repeat||`` loops. Find them and add them inside of each other at the end of the chat command.
+Our goal is going to be to use the width and length variables to make a custom sized checker board. To make a square with side lengths of the width and length, we need 2 ``||loops.repeat||`` loops. Find them and add them inside of each other at the end of the chat command. Place the length variable in the first (outer) one and the width veriable in the second (inner) one.
 
 ```blocks
 let color = 0
